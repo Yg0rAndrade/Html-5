@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Aumente e diminua a largura da janela do seu navegador para ver as imagens aumentando e diminuindo</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="Imagens Flexiveis">
+    </picture>
+    <h1>Audios</h1>
+    <p>Aque teremos uma musica no  <strong>&lt;html&gt; </strong></p>
+    <audio src="midia/Cartoon-on-on.mp3" controls></audio>
+    <audio preload="metadata" controls>
+        <source src="midia/Cartoon-on-on.mp3">
+    </audio>
+</body>
+</html>

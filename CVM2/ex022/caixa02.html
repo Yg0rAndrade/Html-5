@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas 02</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin:0px;
+        }
+        header{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: aliceblue;
+            padding:  3px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+        }
+        main{
+            background-color: wheat;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.559);
+        }
+        article{
+            background-color: gray;
+        }
+        article > aside{
+            background-color: aquamarine;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }  
+        footer > p {
+            margin: 0;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px auto;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site semantico</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header >
+    <main>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticis Sobre O brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt porro quae nesciunt molestias quos. Blanditiis, nemo labore autem officiis adipisci laboriosam vitae temporibus velit commodi eos expedita reiciendis odiosequi</p>
+                <aside>
+                    <p>Arigo escrito por jose da silva</p>
+                </aside>               
+            </article>
+        </section>
+        </main>
+    </main>
+    <footer>
+        <p>Site desenvolvido por: Ygor Andrade  ¯\_(ツ)_/¯</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
