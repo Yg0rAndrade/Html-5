@@ -9,6 +9,7 @@
     --font3: 'Sriracha', cursive;
     --font2: 'Passion One', sans-serif;
 }
+
 *{
 
     margin: 0;
@@ -20,28 +21,34 @@ html body{
     min-height: 100vh;
     background-color: darkgray;
 }
+
 header{
     background-color: black;
     color: white;
     text-align: center;
 }
+
 header > h1 {
     font-family: var(--font2);
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 10vw;  
 }
+
 header > p {
     padding-bottom: 50px;
 }
+
 header a, footer a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
+
 header a:hover, footer a:hover {
     text-decoration: underline;
 }
+
 section{
     padding-left: 30px;
     line-height: 2em;
@@ -50,6 +57,7 @@ section{
     font-family: var(--font3);
     font-size: 3.5vw;
 }
+
 section > p {
     padding-bottom: 2em ;
 }
@@ -66,11 +74,13 @@ section.imagem{
     background-size: cover;
     background-attachment:fixed ;
 }
+
 #img01{
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
     
 }
+
 #img02{
     background-image: url('../imagens/background002.jpg');
     background-position: right center;
@@ -83,7 +93,6 @@ background-color: rgba(0, 0, 0, 0.5);
 padding: 5px;
 text-shadow: 1px 1px 0px;
 }
-
 
 footer{
     background-color: black;
